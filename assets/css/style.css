@@ -1,57 +1,10 @@
-/* page[size="A4"] {
-    background: RED;
-    width: 21cm;
-    height: 29.7cm;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0.5cm;
-    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-} */
-/*  @bottom-right {
-                margin: 10pt 0 30pt 0;
-                border-top: .25pt solid #666;
-                content: counter(page);
-                font-size: 9pt;
-            }
-    
-            @top-right {
-                content: string('doctitle');
-                margin: 30pt 0 10pt 0;
-                font-size: 9pt;
-                color: #333;
-            } */
-
-
-/* @page {
-    size: A4;
-} */
 
 @media print {
-
-
     body {
         font-size: 24pt;
         font-weight: 400;
         font-family: sans-serif;
         zoom: 60%;
-
-
-
-    }
-
-
-
-    .titletop .titleeng {
-        letter-spacing: 6px;
-    }
-
-    .titletop .titlear {
-        letter-spacing: 2px;
-    }
-
-    .titletop .titlep {
-        font-size: 24px;
-        letter-spacing: 3px;
     }
 
     .header p {
